@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: single-container-pod
+spec:
+  nodeName: ip-172-31-75-107.ec2.internal
+  containers:
+    - name: first-container
+      image: nginx
+ 
